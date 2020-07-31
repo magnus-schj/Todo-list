@@ -82,3 +82,22 @@ form button:hover{
     transform: translateY(8rem) rotateZ(20deg);
     opacity: 0;
 }
+/* SELECT AND SORTING */
+select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+    border: none;
+    color: #ff6f47;
+    width: 10rem;
+    cursor: pointer;
+}
+.select{
+    margin: 1rem;
+    position: relative;
+    overflow: hidden;
+}
+.select::after{
+    content: "";
+}
